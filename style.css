@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.topnav{
+    background-color: aquamarine;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
+}
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+.rowcard{
+    display: flex;
+}
+
+.column{
+    flex: 1;
+}
+.sidecard{
+    flex: 2;
+}
+
+.definition-text {
+    flex: 3;
+    margin-left: 20px;
+}
+.firstcard {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #999;
+}
+
+.btn{
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
